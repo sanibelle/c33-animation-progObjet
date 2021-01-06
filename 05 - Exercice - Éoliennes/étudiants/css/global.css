@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100vh;
+    background-image: url('../img/field.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    overflow: hidden;
+}
+
+.base {
+    position: absolute;
+    background-image: url('../img/base.png');
+    width:41px;
+    height: 325px;
+}
+
+.blades {
+    position: absolute;
+    background-image: url('../img/blades.png');
+    width:300px;
+    height: 300px;
+}
+
+#base-1 {
+    left:40vw;
+    bottom:51.5vh;
+}
+
+#base-2 {
+    left:80vw;
+    bottom:50vh;
+}
+
+#base-3 {
+    left:15vw;
+    bottom:50vh;
+}
+
+
+#blades-1 {
+    left:calc(40vw - 120px);
+    bottom:calc(51.5vh + 325px - 155px);
+}
+
+#blades-2 {
+    left:calc(80vw - 120px);
+    bottom:calc(50vh + 325px - 155px);
+}
+
+#blades-3 {
+    left:calc(15vw - 120px);
+    bottom:calc(50vh + 325px - 155px);
+}
+
+
+.btn {
+    position: absolute;
+    bottom:10px;
+    font-size: 40px;
+    width:100px;
+}
+
+#btn-more {
+    right:10px;
+}
+
+#btn-less {
+    left:10px;
+}

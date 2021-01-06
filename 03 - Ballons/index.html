@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Ballons!</title>
+		<link href="css/style.css" rel="stylesheet" />
+		<meta charset="utf-8">
+		<script>
+			const BALL_COUNT = 5;
+		</script>
+		<script src="js/sprite/Ball.js"></script>
+		<script src="js/ball-drop.js"></script>
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<script>
+					for (let i = 0; i < BALL_COUNT; i++) {
+						document.write('<div class="ball" id="ball_' + i + '"></div>');
+					}
+				</script>
+			</div>
+			<div class="animation-img-container">
+				<img src="images/animations.jpg" alt="Base d'une animation">
+			</div>
+		</main>
+	</body>
+</html>

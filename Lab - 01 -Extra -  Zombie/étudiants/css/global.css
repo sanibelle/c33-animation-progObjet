@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+html {
+	background-image: url('../images/background.jpg');
+}
+
+#zombie-container {
+	margin-top: 50px;
+	border: 1px solid white;
+	height: 500px;
+	position: relative;
+}
+
+#zombie1 {
+	background-image: url('../images/zombie1.png');
+	background-size: 100%;
+	width: 150px;
+	height: 240px;
+	position: absolute;
+}
+
+#zombie2 {
+	background-image: url('../images/zombie2.png');
+	background-size: 100%;
+	width: 180px;
+	height: 203px;
+	position: absolute;
+}

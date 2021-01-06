@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom:10px;
+    border-bottom:2px solid #ccc;
+}
+
+main {
+    width:70vh;
+    margin:30px auto;
+}
+
+p {
+    margin-bottom:15px;
+}
