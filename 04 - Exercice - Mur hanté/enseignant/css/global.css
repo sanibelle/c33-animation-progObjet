@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100vh;
+    background-image: url('../img/wall.jpg');
+    background-size: cover;
+}
+
+.frame {
+    position: absolute;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    top:0;
+    left:0;
+    max-height: 250px;
+    max-width: 15vw;
+}
+
+.frame1 {
+    top:10vh;
+    left:5vw;
+}
+
+.frame2 {
+    top:20vh;
+    left:30vw;
+}
+
+.frame3 {
+    top:15vh;
+    left:50vw;
+}
+
+.frame4 {
+    top:45vh;
+    left:10vw;
+}
+
+.frame5 {
+    top:5vh;
+    left:70vw;
+}
+
+.frame6 {
+    top:45vh;
+    left:75vw;
+}
