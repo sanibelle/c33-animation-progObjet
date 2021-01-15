@@ -21,8 +21,8 @@ class Alien{
     tick() {
         if (timeLeft > 0) {
             this.y -=2
+            this.element.style.top =  `${this.y}px`
+            this.element.style.left = `${this.x}px`
         }
-        this.element.style.top =  `${this.y}px`
-        this.element.style.left = `${this.x}px`
     }
 }
